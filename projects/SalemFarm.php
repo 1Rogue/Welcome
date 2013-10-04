@@ -6,11 +6,11 @@
  */
 
 /**
- * Description of SimpleProject
+ * Description of SalemFarm
  *
  * @author Spencer
  */
-class SimpleProject implements Project {
+class SalemFarm implements Project {
     
     public function getDesc() {
         return "Salem Farm is the farm that my mother owns and maintains. I am
