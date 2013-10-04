@@ -29,11 +29,18 @@ class ProjectManager {
     }
 
     public function printProject(Project $project) {
+        echo "<div class=\"project-shell\">";
+        echo "<div class=\"project-image\" style=\"background-image: url('" . $project->getPict() . "')\">";
         echo "<div class=\"project" . (($project->isComplete()) ? " complete" : " incomplete") . "\">";
+        
+        echo "<div class=\"project-content\">";
         
         echo "<span class=\"title\"><a href=\"" . $project->getLoc() . "\">" . $project->getName() . "</a></span>";
         echo "<span class=\"desc\">" . $project->getDesc() . "</span>";
         
+        echo "</div>";
+        echo "</div>";
+        echo "</div>";
         echo "</div>";
     }
 

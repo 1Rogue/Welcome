@@ -7,17 +7,21 @@ jQuery(document).ready(function($) {
             return;
         }
         if (complete === 1) {
-            $(".complete").fadeOut();
+            complete = 0;
+            /*$(".complete").fadeOut();
             $("#completed").hide('slow');
             $("#development").show();
-            $(".dev").fadeIn();
-            complete = 0;
+            $(".dev").fadeIn();*/
+            $("#completed").hide('slow');
+            $("#development").show();
         } else {
-            $(".dev").fadeOut();
+            complete = 1;
+            /*$(".dev").fadeOut();
             $("#development").hide('slow');
             $("#completed").show();
-            $(".complete").fadeIn();
-            complete = 1;
+            $(".complete").fadeIn();*/
+            $("#development").hide('slow');
+            $("#completed").show();
         }
         $("ul.nav li a").each(function(){
             $(this).parent().removeClass("active");

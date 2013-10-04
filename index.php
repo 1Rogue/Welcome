@@ -19,8 +19,10 @@ include 'ProjectManager.php';
         <div class="container span8">
             <div id="wrap">
                 <div id="header">
-                    <h1 class="head-inline">Spencer Alderman</h1>
-                    <a class="head-inline pull-right btn btn-pink hire" href="https://www.freelancer.com/users/9006520.html">Hire me!</a>
+                    <h1 class="inline">Spencer Alderman</h1>
+                    <div class="hire inline pull-right">
+                        <a class="btn btn-pink" href="https://www.freelancer.com/users/9006520.html">Hire me!</a>
+                    </div>
 
                 </div>
                 <div id="content">
@@ -51,9 +53,11 @@ include 'ProjectManager.php';
                             <div class="navbar-inner navbar-pink">
                                 <ul class="nav">
                                     <li class="nav-fill active">
-                                        <a href="#">Completed</a>
+                                        <a class="nav-left" href="#">Completed</a>
                                     </li>
-                                    <li class="nav-fill"><a href="#">In Progress</a></li>
+                                    <li class="nav-fill">
+                                        <a class="nav-right" href="#">In Progress</a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
