@@ -32,7 +32,7 @@ class SalemFarm implements Project {
     }
 
     public function getPict() {
-        return "http://i.imgur.com/P2F6LVs.jpg";
+        return "http://i.imgur.com/t6jzsUW.png";
     }    
 }
 

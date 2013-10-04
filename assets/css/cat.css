@@ -61,7 +61,7 @@ span.title {
 #footer {
     padding-left: 3%;
     padding-right: 3%;
-    padding-bottom: 3%;
+    padding-bottom: 0;
     position: relative;
     margin-top: -38px;
     height: 38px;
@@ -151,6 +151,11 @@ span.title {
     min-height: 150px;
     padding: 1%;
     background: linear-gradient(to right, rgba(64,59,66,1) 0%,rgba(64,59,66,1) 60%,rgba(64,59,66,0.95) 65%,rgba(64,59,66,0) 100%);
+}
+
+.project-image {
+    background-repeat:no-repeat;
+    background-position: right top; 
 }
 
 .project-shell {
