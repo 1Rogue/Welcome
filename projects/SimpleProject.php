@@ -32,7 +32,7 @@ class SimpleProject implements Project {
     }
 
     public function getPict() {
-        return "";
+        return "http://i.imgur.com/aC0KIRT.png";
     }    
 }
 
