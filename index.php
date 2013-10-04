@@ -48,12 +48,11 @@ include 'ProjectManager.php';
                         }
                         ?>
                         <div class="navbar">
-                            <div class="navbar-inner">
+                            <div class="navbar-inner navbar-pink">
                                 <ul class="nav">
                                     <li class="nav-fill active">
                                         <a href="#">Completed</a>
                                     </li>
-                                    <li class="nav-separator">|</li>
                                     <li class="nav-fill"><a href="#">In Progress</a></li>
                                 </ul>
                             </div>

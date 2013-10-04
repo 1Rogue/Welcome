@@ -4,7 +4,7 @@
     /*background: rgba(33, 33, 33, .5);*/
     background: rgba(46,38,51,.5);
     border: rgb(220,233,190)/*(3,101,100)*/ 3px solid;
-    border-radius: 40px;
+    border-radius: 15px;
     float: none;
 }
 
@@ -87,9 +87,11 @@ input , .uneditable-input {
     cursor: inherit;
 }
 
-.navbar .nav > li > a {
+.navbar .nav > li.nav-fill > a {
     padding: 10px 92px 10px;
+    border: rgb(193,63,100) 1px solid;
 }
+
 
 .nav-fill {
     margin: 0 auto;
@@ -109,6 +111,38 @@ a.btn-pink {
 
 a.btn-pink:hover, a.btn-pink:focus {
     color: rgb(209,215,175);
+}
+
+.nav > li.active > a {
+    background-color: rgb(193,63,100) !important;
+    text-shadow: -1px 2px 1px rgba(0,0,0,0.6) !important;
+}
+
+.nav > li > a {
+    color: inherit !important;
+    text-shadow: 0 1px 1px rgba(153,23,60,0.75) !important;
+}
+
+.navbar-pink {
+    min-height: 40px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: rgb(193,63,100);
+    background-image: -moz-linear-gradient(top, rgb(199,69,106), rgb(185,55,92));
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgb(199,69,106)), to(rgb(185,55,92)));
+    background-image: -webkit-linear-gradient(top, rgb(199,69,106), rgb(185,55,92));
+    background-image: -o-linear-gradient(top, rgb(199,69,106), rgb(185,55,92));
+    background-image: linear-gradient(to bottom, rgb(199,69,106), rgb(185,55,92));
+    background-repeat: repeat-x;
+    border: 1px solid #d4d4d4;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffc7456a', endColorstr='#ffb9665c', GradientType=0);
+    *zoom: 1;
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
 }
 
 html, body {
