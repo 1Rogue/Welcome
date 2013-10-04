@@ -20,7 +20,8 @@ class ProjectManager {
 
     public function __construct() {
         $this->arr = array(
-            new SimpleProject()
+            new SimpleProject(),
+            new SalemFarm()
         );
     }
 
