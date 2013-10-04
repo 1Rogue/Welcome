@@ -1,0 +1,151 @@
+* {margin:0;padding:0;} 
+
+.container {
+    /*background: rgba(33, 33, 33, .5);*/
+    background: rgba(46,38,51,.5);
+    border: rgb(220,233,190)/*(3,101,100)*/ 3px solid;
+    border-radius: 40px;
+    float: none;
+}
+
+.project {
+    border: rgb(220,233,190) 1px solid;
+    border-radius: 5px;
+    min-height: 150px;
+    padding: 1%;
+}
+
+span.title {
+    font-size: 20px;
+}
+
+#header {
+    padding-top: 3%;
+}
+
+#header, #footer, #content {
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+#content {
+    padding-top: 4%;
+    overflow:auto;
+    padding-bottom: 38px;
+}
+
+.head-inline {
+    display: inline
+}
+
+.nav li a:hover, .nav li a:focus {
+    background-color: #ddd;
+}
+
+body {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    /*color: #ddd;*/
+    color: rgb(239,255,205);
+}
+
+a {
+    color: rgb(193,63,100);
+    font-weight: bold;
+}
+
+a:hover, a:focus {
+    color: rgb(213,82,120);
+}
+
+.nav {
+    margin-bottom: 0px;
+}
+
+ul.nav-pills li {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+
+ul.nav-pills li a {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+ul {
+    margin: 0 0 0 25px;
+}
+
+textarea.form {
+    max-width: 446px;
+    max-height: 348px;
+}
+
+input , .uneditable-input {
+    height: 30px !important;
+    cursor: inherit;
+}
+
+.nav-fill {
+    margin: 0 auto;
+}
+
+.hire {
+    margin-top: 1%;
+    margin-right: 11%;
+}
+
+.btn-pink {
+    color: inherit;
+    background: rgb(193,63,100) !important;
+    text-shadow: 0 1px 1px rgba(153,23,60,0.75);
+    border: rgb(193,63,100) 1px solid;
+}
+
+html, body {
+    height: 100%;
+    /*background: rgb(88, 88, 88);*/
+    background: rgb(85,81,82);
+}
+
+#wrap {
+    min-height: 100%;
+}
+
+span {
+    display: block;
+    padding: 8px;
+}
+
+#footer {
+    padding-bottom: 3%;
+}
+
+#footer {
+    position: relative;
+    margin-top: -38px; /* negative value of footer height */
+    height: 38px;
+    clear:both;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /*background-color: #faf2cc;*/
+}
+
+span.footnote {
+    color: #888;
+    padding: 5px;
+}
+
+/* Opera fix */
+body:before {
+    content:"";
+    height:100%;
+    float:left;
+    width:0;
+    margin-top:-32767px;
+}

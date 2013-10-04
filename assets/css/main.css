@@ -1,0 +1,105 @@
+* {margin:0;padding:0;} 
+
+.container {
+    /*background: rgba(33, 33, 33, .5);*/
+    background: rgba(3,22,52,.5);
+    border: rgb(205,179,128)/*(3,101,100)*/ 3px solid;
+    border-radius: 40px;
+    float: none;
+}
+
+#content {
+    padding-top: 4%;
+    overflow:auto;
+    padding-bottom: 38px;
+}
+
+.nav li a:hover, .nav li a:focus {
+    background-color: #ddd;
+}
+
+body {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    /*color: #ddd;*/
+    color: rgb(232,221,203);
+}
+
+a {
+    color: rgb/*(205,179,128)*/(3,101,100);
+}
+
+.nav {
+    margin-bottom: 0px;
+}
+
+ul.nav-pills li {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+
+ul.nav-pills li a {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+ul {
+    margin: 0 0 0 25px;
+}
+
+textarea.form {
+    max-width: 446px;
+    max-height: 348px;
+}
+
+input , .uneditable-input {
+    height: 30px !important;
+    cursor: inherit;
+}
+
+.title {
+    padding: 8px;
+}
+
+html, body {
+    height: 100%;
+    /*background: rgb(88, 88, 88);*/
+    background: rgb(3,54,73);
+}
+
+#wrap {
+    min-height: 100%;
+}
+
+span {
+    display: block;
+}
+
+#footer {
+    position: relative;
+    margin-top: -38px; /* negative value of footer height */
+    height: 38px;
+    clear:both;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /*background-color: #faf2cc;*/
+}
+
+span.footnote {
+    color: #888;
+    padding: 5px;
+}
+
+/* Opera fix */
+body:before {
+    content:"";
+    height:100%;
+    float:left;
+    width:0;
+    margin-top:-32767px;
+}
