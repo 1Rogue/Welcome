@@ -12,7 +12,8 @@ include 'ProjectManager.php';
         <link href="bootstrap/css/bootstrap.css" rel="stylesheet" media="screen">
         <link href="assets/css/cat.css" rel="stylesheet" media="screen">
         <script src="bootstrap/js/bootstrap.js"></script>
-        <script src="assets/js/jquery.js"></script>
+        <script src="assets/js/jquery-1.10.2.js"></script>
+        <script src="assets/js/main.js"></script>
     </head>
     <body>
         <div class="container span8">
@@ -56,6 +57,20 @@ include 'ProjectManager.php';
                                     <li class="nav-fill"><a href="#">In Progress</a></li>
                                 </ul>
                             </div>
+                        </div>
+                        <div id="completed">
+                            <?
+                            foreach ($comp as $proj) {
+                                $manager->printProject($proj);
+                            }
+                            ?>
+                        </div>
+                        <div id="development" style="display:none;">
+                            <?
+                            foreach ($dev as $proj) {
+                                $manager->printProject($proj);
+                            }
+                            ?>
                         </div>
                 </div>
             </div>
