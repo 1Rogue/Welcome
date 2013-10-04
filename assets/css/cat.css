@@ -87,6 +87,10 @@ input , .uneditable-input {
     cursor: inherit;
 }
 
+.navbar .nav > li > a {
+    padding: 10px 92px 10px;
+}
+
 .nav-fill {
     margin: 0 auto;
 }
@@ -96,11 +100,15 @@ input , .uneditable-input {
     margin-right: 11%;
 }
 
-.btn-pink {
+a.btn-pink {
     color: inherit;
     background: rgb(193,63,100) !important;
     text-shadow: 0 1px 1px rgba(153,23,60,0.75);
     border: rgb(193,63,100) 1px solid;
+}
+
+a.btn-pink:hover, a.btn-pink:focus {
+    color: rgb(209,215,175);
 }
 
 html, body {
