@@ -13,7 +13,7 @@ jQuery(document).ready(function($) {
             $("#development").show();
             $(".dev").fadeIn();*/
             $("#completed").hide('slow');
-            $("#development").show();
+            $("#development").show('slow');
         } else {
             complete = 1;
             /*$(".dev").fadeOut();
@@ -21,7 +21,7 @@ jQuery(document).ready(function($) {
             $("#completed").show();
             $(".complete").fadeIn();*/
             $("#development").hide('slow');
-            $("#completed").show();
+            $("#completed").show('slow');
         }
         $("ul.nav li a").each(function(){
             $(this).parent().removeClass("active");
