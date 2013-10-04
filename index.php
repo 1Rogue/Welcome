@@ -74,7 +74,7 @@ include 'ProjectManager.php';
                 </div>
             </div>
             <div id="footer">
-                <span>Footer text</span>
+                <span class="pull-right">&copy; <a href="https://github.com/1Rogue">Spencer Alderman</a> 2013</span>
             </div>
         </div>
     </body>
