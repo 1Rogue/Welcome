@@ -12,6 +12,11 @@ include 'JSONManager.php';
         <link href="bootstrap/css/bootstrap.css" rel="stylesheet" media="screen" />
         <link href="assets/css/cat.css" rel="stylesheet" media="screen" />
         <link rel="stylesheet/less" type="text/css" media="screen" href="assets/css/main.less" />
+        <!--[if !IE 7]>
+            <style type="text/css">
+                #wrap {display:table;height:100%}
+            </style>
+        <!--[endif]-->
         <script src="less.js" type="text/javascript"></script>
         <script src="bootstrap/js/bootstrap.js"></script>
         <script src="assets/js/jquery-1.10.2.js"></script>
@@ -35,7 +40,7 @@ include 'JSONManager.php';
                         at <a href="http://internaldrive.com/">iD Tech</a> and as
                         a Forum Administrator on <a href="http://minecraftforum.net/user/1019993-">
                             minecraftforum.net</a>.</span>
-                    <br>
+                    <br />
                     <span>Born in Rutland, Vermont, I continue online for
                         work and fun combined. On most sites my alias is 
                         <strong>1Rogue</strong>, but you may find me under aliases
