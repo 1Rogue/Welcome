@@ -15,7 +15,7 @@ class SimpleProject implements Project {
     public function getDesc() {
         return "SimpleProject was a small project I initially made for my first
             lab assignment at RIT. It was supposed to be a Hello World, but I got
-            told <q>Show what you know</q>. So, a lot of effort for little payoff,
+            told \"Show what you know\". So, a lot of effort for little payoff,
             but it's still a fun little demonstration of different java concepts.";
     }
     

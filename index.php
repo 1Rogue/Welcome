@@ -7,10 +7,12 @@ include 'ProjectManager.php';
 <html>
     <head lang="en-US">
         <title>Spencer Alderman</title>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="bootstrap/css/bootstrap.css" rel="stylesheet" media="screen">
-        <link href="assets/css/cat.css" rel="stylesheet" media="screen">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="bootstrap/css/bootstrap.css" rel="stylesheet" media="screen" />
+        <link href="assets/css/cat.css" rel="stylesheet" media="screen" />
+        <link rel="stylesheet/less" type="text/css" media="screen" href="assets/css/main.less" />
+        <script src="less.js" type="text/javascript"></script>
         <script src="bootstrap/js/bootstrap.js"></script>
         <script src="assets/js/jquery-1.10.2.js"></script>
         <script src="assets/js/main.js"></script>

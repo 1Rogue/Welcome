@@ -1,19 +1,23 @@
+@linkcolor: #c13f64;
+@linkhighlight: @linkcolor + #141414;
+
+
 * {margin:0;padding:0;} 
 
 a {
-    color: rgb(193,63,100);
+    color: @linkcolor;
     font-weight: bold;
 }
 
 a:hover, a:focus {
-    color: rgb(213,83,120);
+    color: @linkhighlight;
 }
 
 a.btn-pink {
     color: inherit;
-    background: rgb(193,63,100) !important;
+    background: @linkcolor !important;
     text-shadow: 0 1px 1px rgba(153,23,60,0.75);
-    border: rgb(193,63,100) 1px solid;
+    border: @linkcolor 1px solid;
 }
 
 a.btn-pink:hover, a.btn-pink:focus {
@@ -112,7 +116,7 @@ span.title {
     min-height: 40px;
     padding-right: 20px;
     padding-left: 20px;
-    background-color: rgb(193,63,100);
+    background-color: @linkcolor;
     background-image: -moz-linear-gradient(top, rgb(199,69,106), rgb(185,55,92));
     background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgb(199,69,106)), to(rgb(185,55,92)));
     background-image: -webkit-linear-gradient(top, rgb(199,69,106), rgb(185,55,92));
@@ -132,7 +136,7 @@ span.title {
 
 .navbar .nav > li.nav-fill > a {
     padding: 10px 92px 10px;
-    border: rgb(193,63,100) 1px solid;
+    border: @linkcolor 1px solid;
 }
 
 .nav > li.active > a {

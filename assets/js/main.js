@@ -8,18 +8,10 @@ jQuery(document).ready(function($) {
         }
         if (complete === 1) {
             complete = 0;
-            /*$(".complete").fadeOut();
-            $("#completed").hide('slow');
-            $("#development").show();
-            $(".dev").fadeIn();*/
             $("#completed").hide('slow');
             $("#development").show('slow');
         } else {
             complete = 1;
-            /*$(".dev").fadeOut();
-            $("#development").hide('slow');
-            $("#completed").show();
-            $(".complete").fadeIn();*/
             $("#development").hide('slow');
             $("#completed").show('slow');
         }

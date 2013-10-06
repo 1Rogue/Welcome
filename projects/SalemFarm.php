@@ -16,7 +16,7 @@ class SalemFarm implements Project {
         return "Salem Farm is the farm that my mother owns and maintains. I am
             creating a website for her to use for the entirety of her farm. The
             site will display horses that live on the farm as well as general
-            information about the farm in general.";
+            information about the farm.";
     }
     
     public function isComplete() {
