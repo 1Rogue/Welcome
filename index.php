@@ -2,7 +2,7 @@
 error_reporting(-1);
 ini_set("display_errors", 1);
 
-include 'ProjectManager.php';
+include 'JSONManager.php';
 ?>
 <html>
     <head lang="en-US">
@@ -44,12 +44,7 @@ include 'ProjectManager.php';
                         <a href="mailto:sja6885@rit.edu">sja6885@rit.edu</a>.</span>
                         <hr>
                         <?
-                        $manager = new ProjectManager();
-                        $dev = array();
-                        $comp = array();
-                        foreach ($manager->getProjects() as $proj) {
-                            $proj->isComplete() ? array_push($comp, $proj) : array_push($dev, $proj);
-                        }
+                        $manager = new JSONManager("projects");
                         ?>
                         <div class="navbar">
                             <div class="navbar-inner navbar-pink">
@@ -65,14 +60,14 @@ include 'ProjectManager.php';
                         </div>
                         <div id="completed">
                             <?
-                            foreach ($comp as $proj) {
+                            foreach($manager->getComplete() as $proj) {
                                 $manager->printProject($proj);
                             }
                             ?>
                         </div>
                         <div id="development" style="display:none;">
                             <?
-                            foreach ($dev as $proj) {
+                            foreach($manager->getDevelopment() as $proj) {
                                 $manager->printProject($proj);
                             }
                             ?>
@@ -80,7 +75,7 @@ include 'ProjectManager.php';
                 </div>
             </div>
             <div id="footer">
-                <span class="pull-right">&copy; <a href="https://github.com/1Rogue">Spencer Alderman</a> 2013</span>
+                <span class="pull-right">&copy; <a href="https://github.com/1Rogue/Welcome">Spencer Alderman</a> 2013</span>
             </div>
         </div>
     </body>
