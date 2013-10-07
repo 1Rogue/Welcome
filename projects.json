@@ -1,5 +1,27 @@
 {
     "projects": {
+        "Playtime": {
+            "name": "PlayTime",
+            "loc": "http://dev.bukkit.org/bukkit-plugins/playtime",
+            "bg": "http://i.imgur.com/zwzxU0P.png",
+            "desc": "Playtime is a plugin for tracking numerous times for particular players in Minecraft. It can track the time that a player has been online, alive for, and how long they have played on the server in total. It currently supports three forms of data management, which are MySQL, SQLite, and flat file storage using yaml files.",
+            "code": [
+                "Java"
+            ],
+            "complete": true,
+            "display": true
+        },
+        "AdminChat": {
+            "name": "AdminChat",
+            "loc": "http://dev.bukkit.org/bukkit-plugins/adminchat",
+            "bg": "http://dev.bukkit.org/media/images/38/951/ac.png",
+            "desc": "Adminchat, despite the name, is a bukkit plugin for minecraft that has grown into lightweight channel management. Players can dynamically create channels, and designate their commands and format through configuration, and give permissions to read and send to specific channels.",
+            "code": [
+                "Java"
+            ],
+            "complete": true,
+            "display": true
+        },
         "SimpleProject": {
             "name": "SimpleProject",
             "loc": "https://github.com/1Rogue/Simpleproject",
