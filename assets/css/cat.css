@@ -9,17 +9,6 @@ a:hover, a:focus {
     color: rgb(213,83,120);
 }
 
-a.btn-pink {
-    color: inherit;
-    background: rgb(193,63,100) !important;
-    text-shadow: 0 1px 1px rgba(153,23,60,0.75);
-    border: rgb(193,63,100) 1px solid;
-}
-
-a.btn-pink:hover, a.btn-pink:focus {
-    color: rgb(209,215,175);
-}
-
 body {
     padding-top: 5%;
     padding-bottom: 5%;
@@ -82,6 +71,17 @@ span.title {
 
 #wrap {
     min-height: 100%;
+}
+
+.btn-pink {
+    color: inherit;
+    background: rgb(193,63,100) !important;
+    text-shadow: 0 1px 1px rgba(153,23,60,0.75);
+    border: rgb(193,63,100) 1px solid;
+}
+
+.btn-pink:hover, a.btn-pink:focus {
+    color: rgb(209,215,175);
 }
 
 .container {
