@@ -3,6 +3,11 @@ error_reporting(-1);
 ini_set("display_errors", 1);
 
 include 'JSONManager.php';
+
+$dev = false;
+if (isset($_GET['dev'])) {
+    $dev = $_GET['dev'] == 1;
+}
 ?>
 <html>
     <head lang="en-US">
@@ -21,6 +26,13 @@ include 'JSONManager.php';
         <script src="bootstrap/js/bootstrap.js"></script>
         <script src="assets/js/jquery-1.10.2.js"></script>
         <script src="assets/js/main.js"></script>
+        <script>
+            <?
+            if ($dev) {
+                echo "complete = 0;";
+            }
+            ?>
+        </script>
     </head>
     <body>
         <div class="container span8">
@@ -54,23 +66,23 @@ include 'JSONManager.php';
                     <div class="navbar">
                         <div class="navbar-inner navbar-pink">
                             <ul class="nav">
-                                <li class="nav-fill active">
+                                <li class="nav-fill<? echo (!$dev) ? " active" : "" ?>">
                                     <a class="nav-left" href="#">Completed</a>
                                 </li>
-                                <li class="nav-fill">
+                                <li class="nav-fill<? echo ($dev) ? " active" : "" ?>">
                                     <a class="nav-right" href="#">In Progress</a>
                                 </li>
                             </ul>
                         </div>
                     </div>
-                    <div id="completed">
+                    <div id="completed"<? echo ($dev) ? " style=\"display:none;\"" : ""?>>
                         <?
                         foreach ($manager->getComplete() as $proj) {
                             $manager->printProject($proj);
                         }
                         ?>
                     </div>
-                    <div id="development" style="display:none;">
+                    <div id="development"<? echo (!$dev) ? " style=\"display:none;\"" : ""?>v>
                         <?
                         foreach ($manager->getDevelopment() as $proj) {
                             $manager->printProject($proj);
