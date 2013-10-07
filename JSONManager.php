@@ -43,7 +43,12 @@ class JSONManager {
 
             echo "<div class=\"project-content\">";
 
-            echo "<span class=\"title\"><a href=\"" . $proj["loc"] . "\">" . $proj["name"] . "</a></span>";
+            echo "<span style=\"width: 56%\"><a class=\"title\" href=\"" . $proj["loc"] . "\">" . $proj["name"] . "</a>";
+            echo "<div class=\"inline pull-right\">";
+            foreach ($proj["code"] as $name) {
+               echo "<span class=\"btn btn-pink codetype\">$name</span>";
+            }
+            echo "</div></span>";
             echo "<span class=\"desc\">" . $proj["desc"] . "</span>";
 
             echo "</div>";

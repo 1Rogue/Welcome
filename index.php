@@ -47,36 +47,36 @@ include 'JSONManager.php';
                         such as <strong>OneRogue</strong> or even just
                         <strong>Rogue</strong>. I can be reached at
                         <a href="mailto:sja6885@rit.edu">sja6885@rit.edu</a>.</span>
-                        <hr>
+                    <hr>
+                    <?
+                    $manager = new JSONManager("projects");
+                    ?>
+                    <div class="navbar">
+                        <div class="navbar-inner navbar-pink">
+                            <ul class="nav">
+                                <li class="nav-fill active">
+                                    <a class="nav-left" href="#">Completed</a>
+                                </li>
+                                <li class="nav-fill">
+                                    <a class="nav-right" href="#">In Progress</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="completed">
                         <?
-                        $manager = new JSONManager("projects");
+                        foreach ($manager->getComplete() as $proj) {
+                            $manager->printProject($proj);
+                        }
                         ?>
-                        <div class="navbar">
-                            <div class="navbar-inner navbar-pink">
-                                <ul class="nav">
-                                    <li class="nav-fill active">
-                                        <a class="nav-left" href="#">Completed</a>
-                                    </li>
-                                    <li class="nav-fill">
-                                        <a class="nav-right" href="#">In Progress</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div id="completed">
-                            <?
-                            foreach($manager->getComplete() as $proj) {
-                                $manager->printProject($proj);
-                            }
-                            ?>
-                        </div>
-                        <div id="development" style="display:none;">
-                            <?
-                            foreach($manager->getDevelopment() as $proj) {
-                                $manager->printProject($proj);
-                            }
-                            ?>
-                        </div>
+                    </div>
+                    <div id="development" style="display:none;">
+                        <?
+                        foreach ($manager->getDevelopment() as $proj) {
+                            $manager->printProject($proj);
+                        }
+                        ?>
+                    </div>
                 </div>
             </div>
             <div id="footer">

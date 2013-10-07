@@ -35,10 +35,6 @@ span {
     padding: 8px;
 }
 
-span.title {
-    font-size: 20px;
-}
-
 #content {
     padding-top: 4%;
     overflow:auto;
@@ -84,6 +80,10 @@ span.title {
     color: rgb(209,215,175);
 }
 
+.codetype {
+    padding: 0px 6px;
+}
+
 .container {
     background: rgba(46,38,51,.5);
     border: rgb(220,233,190) 3px solid;
@@ -95,13 +95,13 @@ span.title {
     width: 60%;
 }
 
-.inline {
-    display: inline !important;
-}
-
 .hire {
     padding-top: 1%;
     padding-right: 11%;
+}
+
+.inline {
+    display: inline !important;
 }
 
 .nav {
@@ -160,4 +160,8 @@ span.title {
 
 .project-shell {
     padding-bottom: 15px;
+}
+
+.title {
+    font-size: 20px;
 }
