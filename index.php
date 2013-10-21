@@ -58,7 +58,7 @@ if (isset($_GET['dev'])) {
                         <strong>1Rogue</strong>, but you may find me under aliases
                         such as <strong>OneRogue</strong> or even just
                         <strong>Rogue</strong>. I can be reached at
-                        <a href="mailto:sja6885@rit.edu">sja6885@rit.edu</a>.</span>
+                        <a href="mailto:spencer@1rogue.com">spencer@1rogue.com</a>.</span>
                     <hr>
                     <?
                     $manager = new JSONManager("projects");
