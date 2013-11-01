@@ -1,14 +1,9 @@
 <?php
 
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-
 /**
  * Description of JSONManger
  *
- * @author Spencer
+ * @author 1Rogue
  */
 class JSONManager {
 
