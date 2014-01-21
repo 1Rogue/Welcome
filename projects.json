@@ -15,7 +15,7 @@
             "name": "PhanaticWalls",
             "loc": "javascript:return false",
             "bg": "http://i.imgur.com/gTHrftI.png",
-            "desc": "",
+            "desc": "A private plugin done in reference of the popular \"Walls\" minigame on <a href=\"hypixel.net\">Hypixel</a> Made for <a href=\"http://phanaticmc.com/\">PhanaticMC</a>, with quite a few new options added (dynamic world loading, arena wall selections, and more).",
             "code": [
                 "Java"
             ],
