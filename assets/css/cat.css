@@ -1,12 +1,12 @@
 * {margin:0;padding:0;} 
 
 a {
-    color: rgb(193,63,100);
+    color: rgb(203,73,110);
     font-weight: bold;
 }
 
 a:hover, a:focus {
-    color: rgb(213,83,120);
+    color: rgb(223,93,130);
 }
 
 body {

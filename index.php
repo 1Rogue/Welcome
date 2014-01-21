@@ -17,6 +17,7 @@ if (isset($_GET['dev'])) {
         <link href="bootstrap/css/bootstrap.css" rel="stylesheet" media="screen" />
         <link href="assets/css/cat.css" rel="stylesheet" media="screen" />
         <link rel="stylesheet/less" type="text/css" media="screen" href="assets/css/main.less" />
+        <link rel="icon" type="image/png" href="assets/img/favicon.png" />
         <!--[if !IE 7]>
             <style type="text/css">
                 #wrap {display:table;height:100%}
@@ -48,10 +49,12 @@ if (isset($_GET['dev'])) {
                     <span>I am a student at Rochester Institute of Technology,
                         studying for my Masters in Computer Science. I do development
                         in Java and C++, and create websites using a mix of nodejs,
-                        PHP, and SQL. I've also worked as a programming instuctor
+                        PHP, and SQL. I've worked as a programming instuctor
                         at <a href="http://internaldrive.com/">iD Tech</a> and as
                         a Forum Administrator on <a href="http://minecraftforum.net/user/1019993-">
-                            minecraftforum.net</a>.</span>
+                        minecraftforum.net</a>. I am also a staff member for 
+                        <a href="http://dev.bukkit.org/">BukkitDev</a>, a popular
+                        site for distribution of plugins for Bukkit.</span>
                     <br />
                     <span>Born in Rutland, Vermont, I continue online for
                         work and fun combined. On most sites my alias is 

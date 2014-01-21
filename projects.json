@@ -1,9 +1,31 @@
 {
     "projects": {
+        "PluginTemplate": {
+            "name": "PluginTemplate",
+            "loc": "http://github.com/1Rogue/PluginTemplate",
+            "bg": "http://i.imgur.com/aC0KIRT.png",
+            "desc": "PluginTemplate is a template devised to be used for a majority of my plugin releases. It has most of the basic functionality laid out (listener/command management, auto-updating, etc). It is open source and others may use it!",
+            "code": [
+                "Java"
+            ],
+            "complete": true,
+            "display": true
+        },
+        "PhanaticWalls": {
+            "name": "PhanaticWalls",
+            "loc": "javascript:return false",
+            "bg": "http://i.imgur.com/gTHrftI.png",
+            "desc": "",
+            "code": [
+                "Java"
+            ],
+            "complete": false,
+            "display": true
+        },
         "Playtime": {
             "name": "PlayTime",
             "loc": "http://dev.bukkit.org/bukkit-plugins/playtime",
-            "bg": "http://i.imgur.com/zwzxU0P.png",
+            "bg": "http://i.imgur.com/Md3UnIX.png",
             "desc": "Playtime is a plugin for tracking numerous times for particular players in Minecraft. It can track the time that a player has been online, alive for, and how long they have played on the server in total. It currently supports three forms of data management, which are MySQL, SQLite, and flat file storage using yaml files.",
             "code": [
                 "Java"
@@ -16,6 +38,17 @@
             "loc": "http://dev.bukkit.org/bukkit-plugins/adminchat",
             "bg": "http://dev.bukkit.org/media/images/38/951/ac.png",
             "desc": "Adminchat, despite the name, is a bukkit plugin for minecraft that has grown into lightweight channel management. Players can dynamically create channels, and designate their commands and format through configuration, and give permissions to read and send to specific channels.",
+            "code": [
+                "Java"
+            ],
+            "complete": true,
+            "display": true
+        },
+        "Bank": {
+            "name": "Bank",
+            "loc": "https://github.com/1Rogue/Bank",
+            "bg": "http://i.imgur.com/aC0KIRT.png",
+            "desc": "A Banking platform using the MVC GUI design pattern. Loads bank information from a text file, and can run in a \"batch mode\" or through GUI input. Was a Team project with one other person, so a good display of working together on a project.",
             "code": [
                 "Java"
             ],
