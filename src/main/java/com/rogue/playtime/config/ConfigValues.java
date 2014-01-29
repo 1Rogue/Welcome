@@ -28,7 +28,18 @@ public enum ConfigValues {
     DEBUG_LEVEL("general.debug-level", 0),
     UPDATE_CHECK("update.check", true),
     UPDATE_DOWNLOAD("update.download", true),
-    DATA_MANAGER("data.manager", "sqlite");
+    LANGUAGE_GITHUB("language.use-github", true),
+    LANGUAGE_LOCALE("language.locale", "en_US"),
+    TIMER_TOTAL("timers.total", true),
+    TIMER_DEATH("timers.death", true),
+    TIMER_ONLINE("timers.online", true),
+    AFK_ENABLED("afk.enabled", true),
+    DATA_MANAGER("data.manager", "sqlite"),
+    MYSQL_HOST("managers.mysql.host", "localhost"),
+    MYSQL_PORT("managers.mysql.port", 3306),
+    MYSQL_DATABASE("managers.mysql.database", "minecraft"),
+    MYSQL_USER("managers.mysql.username", "root"),
+    MYSQL_PASS("managers.mysql.password", "password");
     
     private final String key;
     private final Object def;
