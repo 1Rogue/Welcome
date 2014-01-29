@@ -164,9 +164,25 @@ public class Metrics {
             return "SQLite";
         }
     }
-    
+
+    /**
+     * Registers a {@link Graph} that reports the data type in use by {@link Playtime}
+     * 
+     * @since 2.0.0
+     * @author 1Rogue
+     * @version 2.0.0
+     */
     public void registerDataGraph() {
-        //todo: add graph
+        Graph g = this.createGraph("Data Type Usage");
+        Plotter p = new Plotter(this.getDataString()) {
+
+            @Override
+            public int getValue() {
+                return 1;
+            }
+        };
+        g.addPlotter(p);
+        this.addGraph(g);
     }
     
     /**
