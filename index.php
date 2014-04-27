@@ -41,7 +41,7 @@ if (isset($_GET['dev'])) {
                 <div id="header">
                     <h1 class="inline">Spencer Alderman</h1>
                     <div class="hire inline pull-right">
-                        <a class="btn btn-pink" href="https://www.freelancer.com/users/9006520.html">Hire me!</a>
+                        <a class="btn btn-pink" href="https://codelanx.com/">Hire me!</a>
                     </div>
 
                 </div>
